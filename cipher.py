@@ -1,5 +1,5 @@
 #Caesar Cipher
-text = 'Hello Zaira'
+text = 'Hello Zaira!'
 shift = 3
 custom_key = 'python'
 
@@ -25,8 +25,8 @@ def vigenere(message, key, direction=1):
     final_message = ''
 
     for char in message.lower():
-        #Append space to the message
-        if char == ' ':
+        # Append any non-letter character to the message
+        if not char.isalpha():
             final_message += char
         else:
             #Find the right key character to encode/decode
@@ -39,7 +39,10 @@ def vigenere(message, key, direction=1):
             final_message += alphabet[new_index]
     return final_message
 
-encryption = vigenere(text, custom_key, 1)
+def encrypt(message, key):
+    pass
+
+encryption = vigenere(text, custom_key)
 print(encryption)
 decryption = vigenere(encryption, custom_key, -1)
 print(decryption)
