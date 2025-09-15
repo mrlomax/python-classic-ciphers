@@ -2,7 +2,14 @@
 
 This is a Python script I wrote to implement two classic ciphers: the Caesar cipher and the Vigenère cipher. The project started as a simple implementation and was refactored to incorporate a range of professional programming best practices. It can encrypt and decrypt text while preserving case and handling non-alphabetic characters.
 
+## What I Learned
 
+This project was a practical exercise in applying fundamental Python concepts. It gave me hands-on experience using the following to build a program from scratch:
+
+- **Variables** to store data like the alphabet, keys, and messages.
+- **Functions** to organize code into reusable blocks for encrypting, decrypting, and transforming characters.
+- **Loops** to iterate over each character in a message.
+- **Conditional statements** (`if/else`) to handle different character types (like letters vs. punctuation) and to preserve letter casing.
 
 ## Features
 
@@ -37,7 +44,7 @@ Caesar encrypted text: Khoor, Zruog! Wklv lv d whvw.
 
 Caesar decrypted text: Hello, World! This is a test.
 
-Vigenere encrypted text: Wcesc, Jdpek! Huxq bz o gtqm.
+Vigenere encrypted text: Wcesc, Jdpek! Huxq bzo gthm.
 
 Vigenere decrypted text: Hello, World! This is a test.
 ```
