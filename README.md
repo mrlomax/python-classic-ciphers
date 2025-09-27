@@ -60,3 +60,4 @@ Vigenere decrypted text: Hello, World! This is a test.
 
 - **Language:** Python 3
 - **Modules:** `enum`, `string`, `typing` (all from the standard library)
+-  **Key Concepts:** Modular Functions, DRY Principle, Enums, Type Hinting, Input Validation
